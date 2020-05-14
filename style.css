@@ -1,9 +1,15 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
-html { box-sizing: border-box; }
-*, ::after, ::before { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
 
 body {
-    text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
 }
 
 /*
@@ -21,3 +27,104 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+body {
+  font-family: "Rubik", sans-serif;
+  padding: 30px 30px;
+  margin: 30px 30px;
+  background-color: #f5f5f5;
+}
+.kontejner1 {
+  display: flex;
+  justify-content: center;
+}
+
+.vizual {
+  background: linear-gradient(#06d7c1, #50cc49);
+  position: relative;
+  width: 335px;
+  height: 440px;
+  color: white;
+}
+.slogan {
+  font-weight: 500;
+  font-size: 16px;
+  position: absolute;
+  left: 30px;
+  top: 60px;
+}
+
+.logo {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.cena {
+  font-weight: 500;
+  font-size: 28px;
+  text-align: right;
+}
+
+.cenovka {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+}
+
+.bota {
+  position: absolute;
+  right: 10px;
+  top: 140px;
+}
+
+.kontejner2 {
+  display: flex;
+}
+.detaily {
+  background-color: white;
+  width: 335px;
+  height: 440px;
+}
+.zaruka {
+  font-weight: 400;
+  font-size: 12px;
+  margin: 30px 30px;
+}
+
+.nazev {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 30px 30px;
+}
+
+.popis {
+  margin: 30px 30px;
+}
+.produkt {
+  color: #959595;
+  margin: 30px 30px;
+}
+.parametr {
+  margin: 30px 30px;
+}
+
+.velikosti {
+  margin: 30px 30px;
+}
+
+.akce {
+  margin: 30px 30px;
+}
+
+/*.kontejner3 {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: inline;
+}
+.velikosti {
+  
+}*/
