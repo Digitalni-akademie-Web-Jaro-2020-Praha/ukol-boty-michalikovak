@@ -51,7 +51,7 @@ body {
   font-size: 16px;
   position: absolute;
   left: 30px;
-  top: 60px;
+  top: 70px;
 }
 
 .logo {
@@ -68,13 +68,13 @@ body {
 
 .cenovka {
   position: absolute;
-  bottom: 30px;
+  top: 350px;
   right: 30px;
 }
 
 .bota {
   position: absolute;
-  right: 10px;
+  right: 5px;
   top: 140px;
 }
 
@@ -89,42 +89,67 @@ body {
 .zaruka {
   font-weight: 400;
   font-size: 12px;
-  margin: 30px 30px;
 }
 
 .nazev {
   font-weight: 500;
   font-size: 20px;
-  margin: 30px 30px;
+  margin: 30px 30px 10px 30px;
+  text-transform: uppercase;
 }
 
 .popis {
   margin: 30px 30px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #06d7c1;
 }
+
 .produkt {
   color: #959595;
-  margin: 30px 30px;
+  margin: 15px 30px 30px 30px;
 }
 .parametr {
   margin: 30px 30px;
-}
-
-.velikosti {
-  margin: 30px 30px;
+  text-transform: uppercase;
 }
 
 .akce {
   margin: 30px 30px;
 }
 
-/*.kontejner3 {
+.velikosti {
+  margin: 30px 30px;
   display: flex;
-  flex-direction: row;
+  padding: 0;
+
+  /*align-content: space-between; - nefunguje*/
 }
 
-ul {
-  display: inline;
+li {
+  list-style-type: none;
+  margin-right: 13px;
+  margin-left: 10px;
 }
-.velikosti {
-  
-}*/
+li:hover {
+  border: 2px solid #f15f42;
+  border-radius: 50%;
+  color: #f15f42;
+  padding: 2px;
+}
+
+.vybrana:active {
+  border: 2px solid #f15f42;
+  border-radius: 50%;
+  color: #f15f42;
+  padding: 2px;
+}
+
+button {
+  margin: 0 0 30px 8px;
+  width: 125px;
+  height: 35px;
+  background-color: #f15f42;
+  color: white;
+  border-radius: 12%;
+  text-transform: uppercase;
+}
